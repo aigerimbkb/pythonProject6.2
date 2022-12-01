@@ -1,0 +1,122 @@
+import turtle
+
+t = turtle.Turtle()
+
+t.pensize(2)
+t.pencolor("#000000")
+
+#стеклянная колба лампочки
+t.left(30)
+t.fillcolor("#FFFF00")
+t.begin_fill()
+t.circle(50, 300)
+t.left(30)
+t.up()
+t.goto(-50, 0)
+t.down()
+t.right(90)
+t.forward(20)
+t.left(90)
+t.forward(50)
+t.left(90)
+t.forward(20)
+t.end_fill()
+
+turtle.pencolor("#000000")
+t.up()
+t.goto(0, -20)
+t.down()
+
+#цоколь лампочки
+t.fillcolor("#808080")
+t.begin_fill()
+t.right(180)
+t.forward(5)
+t.right(90)
+t.forward(50)
+t.right(90)
+t.forward(5)
+t.end_fill()
+
+t.up()
+t.goto(0, -26)
+t.down()
+
+t.fillcolor("#808080")
+t.begin_fill()
+t.right(180)
+t.forward(5)
+t.right(90)
+t.forward(50)
+t.right(90)
+t.forward(5)
+t.end_fill()
+
+t.up()
+t.goto(0, -32)
+t.down()
+
+t.fillcolor("#808080")
+t.begin_fill()
+t.right(180)
+t.forward(5)
+t.right(90)
+t.forward(50)
+t.right(90)
+t.forward(5)
+t.end_fill()
+
+t.up()
+t.goto(0, -38)
+t.down()
+
+t.fillcolor("#808080")
+t.begin_fill()
+t.right(180)
+t.forward(5)
+t.right(90)
+t.forward(50)
+t.right(90)
+t.forward(5)
+t.end_fill()
+
+t.up()
+t.goto(-35, -44)
+t.down()
+
+#контакт цоколя
+t.fillcolor("#000000")
+t.begin_fill()
+t.left(180)
+t.circle(10, 180)
+t.end_fill()
+
+t.up()
+t.goto(-35, -20)
+t.down()
+
+#электроды и нить накаления
+t.forward(10)
+t.left(25)
+t.forward(20)
+t.right(80)
+t.forward(8)
+t.right(75)
+t.forward(10)
+t.left(75)
+t.forward(10)
+t.right(75)
+t.forward(10)
+t.left(70)
+t.forward(10)
+t.right(140)
+t.forward(20)
+t.left(25)
+t.forward(12)
+
+t.up()
+t.goto(20, 0)
+t.goto(100, 0)
+
+turtle.done()
+
